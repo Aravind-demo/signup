@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Project | Signup Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="text text1"><h1>Register</h1></div>
+            <hr class="hr">
+         <form onsubmit="return validateForm()">   <div class="text text3"><input type="text" placeholder="Name"></div>
+            <div class="text text4"><input type="email" name="email" id="email" placeholder="Email"></div>
+            <div class="text text5"><input type="password" placeholder="Password" required id="password"></div>
+            <div class="text text6"><input type="password" placeholder="Confirm Password" required id="confirm_password"></div>
+            <div class="text show"><input type="checkbox" id="showPassword" onchange="togglePassword()">
+                <label for="showPassword">Show Password</label></div>
+            <div class="text text7"><button type="submit" class="btn1">Sign Up</button></div>
+            <div class="text login"><p>Have an Account?</p>
+            <a href="#" class="lnk1">Login Here</a></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
